@@ -6,7 +6,7 @@ import traceback
 import json
 from src.mcqgnereator.logger import logging
 
-with open("C:\Users\S K E F\Desktop\GenAI\projects\MCQGEN\Response.json",'r') as file:
+with open("C:/Users/S K E F/Desktop/GenAI/projects/MCQGEN/Response.json",'r') as file:
     RESPONSE_JSON=json.load(file)
 
 logging.INFO('response_json has fetched succesfully')
@@ -56,5 +56,5 @@ if button and upload_file is not None and mcq_count and subject and tone :
                 st.text_area(level='Review',value=response['review'])
             else:
                 st.error('Error in Response')
-                
+
 
