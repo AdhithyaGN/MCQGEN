@@ -1,0 +1,17 @@
+[2024-06-08 00:20:48,341] 9 root- INFO-starting the mcqapp before loading
+[2024-06-08 00:20:48,487] 14 root- INFO-Ollama Model llama3 has been defined 
+[2024-06-08 00:20:48,488] 27 root- INFO-main template is defined
+[2024-06-08 00:20:48,488] 31 root- INFO-quiz generation_prompt object of PromptTemplate class is created
+[2024-06-08 00:20:49,769] 34 root- INFO-chain 1 consist of llm ,quiz generaion prompt is defined 
+[2024-06-08 00:20:49,769] 45 root- INFO-template2 is defined
+[2024-06-08 00:20:49,769] 49 root- INFO-quiz evaluation prompt is created
+[2024-06-08 00:20:49,769] 53 root- INFO-chain2 with llm and quiz evaluation prompt is created
+[2024-06-08 00:20:49,769] 56 root- INFO-the sequential chain object is defined
+[2024-06-08 00:20:49,774] 12 root- INFO-response_json has fetched succesfully
+[2024-06-08 00:20:49,806] 27 root- INFO-streamlit form has defined
+[2024-06-08 00:21:10,150] 12 root- INFO-response_json has fetched succesfully
+[2024-06-08 00:21:10,150] 27 root- INFO-streamlit form has defined
+[2024-06-08 00:21:10,167] 12 root- INFO-the file reader function is initiated
+[2024-06-08 00:29:53,511] 54 root- INFO-response created succesfully
+[2024-06-08 00:29:53,514] 61 root- INFO-response shown
+[2024-06-08 00:29:53,516] 66 root- INFO-App has run and gave response succesfully

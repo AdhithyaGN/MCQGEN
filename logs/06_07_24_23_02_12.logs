@@ -1,0 +1,44 @@
+[2024-06-07 23:11:25,396] 9 root- INFO-starting the mcqapp before loading
+[2024-06-07 23:14:22,317] 9 root- INFO-starting the mcqapp before loading
+[2024-06-07 23:31:41,326] 9 root- INFO-starting the mcqapp before loading
+[2024-06-07 23:37:22,283] 9 root- INFO-starting the mcqapp before loading
+[2024-06-07 23:37:22,290] 14 root- INFO-Ollama Model llama3 has been defined 
+[2024-06-07 23:37:22,290] 27 root- INFO-main template is defined
+[2024-06-07 23:37:22,290] 31 root- INFO-quiz generation_prompt object of PromptTemplate class is created
+[2024-06-07 23:37:22,305] 34 root- INFO-chain 1 consist of llm ,quiz generaion prompt is defined 
+[2024-06-07 23:37:22,306] 45 root- INFO-template2 is defined
+[2024-06-07 23:37:22,307] 49 root- INFO-quiz evaluation prompt is created
+[2024-06-07 23:37:22,307] 53 root- INFO-chain2 with llm and quiz evaluation prompt is created
+[2024-06-07 23:37:22,308] 56 root- INFO-the sequential chain object is defined
+[2024-06-07 23:37:22,348] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:37:22,383] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:37:22,384] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:38:18,814] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:38:18,825] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:38:18,830] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:38:32,802] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:38:32,812] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:38:32,812] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:38:46,055] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:38:46,069] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:38:46,073] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:39:26,688] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:39:26,700] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:39:26,704] 11 root- INFO-the file reader function is initiated
+[2024-06-07 23:39:26,726] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:39:51,446] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:39:51,461] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:39:51,477] 11 root- INFO-the file reader function is initiated
+[2024-06-07 23:39:51,489] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:51:48,815] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:51:48,832] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:51:48,835] 11 root- INFO-the file reader function is initiated
+[2024-06-07 23:51:48,870] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:52:39,300] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:52:39,315] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:52:39,331] 11 root- INFO-the file reader function is initiated
+[2024-06-07 23:52:39,345] 59 root- INFO-App has run and gave response succesfully
+[2024-06-07 23:53:26,433] 12 root- INFO-response_json has fetched succesfully
+[2024-06-07 23:53:26,449] 27 root- INFO-streamlit form has defined
+[2024-06-07 23:53:26,465] 11 root- INFO-the file reader function is initiated
+[2024-06-07 23:53:26,539] 59 root- INFO-App has run and gave response succesfully

@@ -1,20 +1,20 @@
 import os
 import streamlit as st
-from src.mcqgnereator.utils import file_reader
-from src.mcqgnereator.mcqapp import generate_evaluate_chain
+from src.mcqgenerator.utils import file_reader
+from src.mcqgenerator.mcqapp import generate_evaluate_chain
 import traceback
 import json
-from src.mcqgnereator.logger import logging
+from src.mcqgenerator.logger import logging
 
 with open("C:/Users/S K E F/Desktop/GenAI/projects/MCQGEN/Response.json",'r') as file:
     RESPONSE_JSON=json.load(file)
 
-logging.INFO('response_json has fetched succesfully')
+logging.info('response_json has fetched succesfully')
 
 st.title('MCQ Generator App with LangChain')
 
 with st.form('user_inputs'):
-    upload_file=st.file_uploader('Upload a file :Pdf/txt file')
+    upload_file=st.file_uploader('Upload a file Pdf or txt file')
 
     mcq_count=st.number_input('No: of MCQs',min_value=3,max_value=50)
 
@@ -24,7 +24,7 @@ with st.form('user_inputs'):
 
     button=st.form_submit_button('Create MCQs')
 
-logging.INFO('streamlit form has defined')
+logging.info('streamlit form has defined')
 
 if button and upload_file is not None and mcq_count and subject and tone :
 
@@ -51,10 +51,18 @@ if button and upload_file is not None and mcq_count and subject and tone :
             quiz=response['quiz']
 
             if quiz is not None:
-                st.write(quiz)
+                logging.info('response created succesfully')
+                quiz_str=""
+                for i in range(len(quiz)):
+                    quiz_str+=quiz[i]
+                 
 
-                st.text_area(level='Review',value=response['review'])
+                st.write(quiz_str)
+                logging.info('response shown')
+
+                st.text_area(label='Review',value=response['review'])
             else:
                 st.error('Error in Response')
+        logging.info('App has run and gave response succesfully')
 
 
