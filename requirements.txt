@@ -9,5 +9,5 @@ chromadb
 faiss-cpu
 groq
 langchain_groq
-
+pypdf
 -e.
